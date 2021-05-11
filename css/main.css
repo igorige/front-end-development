@@ -9,7 +9,9 @@
 #menu a:hover{
     color: silver;
 }
-
+#menu-logo{
+    width:16px;
+}
 /**********************BANNER-SECTION**************************************/
 #banner .row{
     min-height: 400px;
