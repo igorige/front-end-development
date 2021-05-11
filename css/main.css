@@ -1,0 +1,51 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+#menu a{
+    color: #2C2A2A;
+    margin-right: 24px;
+}
+#menu a:hover{
+    color: silver;
+}
+
+/**********************BANNER-SECTION**************************************/
+#banner .row{
+    min-height: 400px;
+    background-image: url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position:relative;
+}
+
+
+#banner .row  p{
+    padding: 10px 50px;
+    background: #36C48C;
+}
+@media screen and (max-width:540px) {
+    #banner .row  p{
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        background: #36C48C;
+    }
+}
+
+/**********INFO-SECTION**************/
+
+#info-section{
+    background:#232323;
+}
+#info-section hr{
+    border-top: 1px solid #6c757d;
+    opacity: 0.2;
+}
+
+/***********FOOTER-SECTION**************/
+
+#footer-section{
+    background:black;
+}
